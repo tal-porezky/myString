@@ -4,6 +4,12 @@
 
 
 int main() {
+    MyString a{ "a" };
+    const MyString& c_refa{ a };
+    a = "bye";
+    std::cout << "a is: " << a << "\n";
+    std::cout << "b is: " << c_refa << "\n";
+
     MyString str("hello");
     MyString str2("bye");
     MyString str3("hey");

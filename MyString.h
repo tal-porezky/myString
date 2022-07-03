@@ -9,7 +9,7 @@ private:
     explicit MyString(std::size_t len, const char* str);
 
 public:
-    explicit MyString(const char* str);
+    MyString(const char* str);
     
     MyString(const MyString& other);
 
